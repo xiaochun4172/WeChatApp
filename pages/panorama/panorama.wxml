@@ -1,0 +1,7 @@
+<!--pages/panorama/panorama.wxml-->
+<!-- <text>pages/panorama/panorama.wxml</text>  -->
+<!-- 不支持打开非业务域名，企业版可以测试，如需要得升级，或者完全自己写代码 -->
+<!-- <web-view src = "https://122.224.160.68/zxdq/web/home/pano?openid=omevvs-QtGyn7slSNsqqNtgd29pc"></web-view> -->
+
+
+<web-view src = "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAxODg0NTA4MQ==&scene=124#wechat_redirect"></web-view>

@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/panorama/panorama",
+    "pages/oneMap/oneMap"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+    
+  },
+"tabBar": {
+  "color": "#dddddd",
+  "selectedColor": "#000000",
+  "borderStyle": "white",
+  "backgroundColor": "#ffffff",
+  "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath":"pages/image/icon.png",
+      "text": "首页"
+    },{
+      "pagePath": "pages/logs/logs",
+      "iconPath": "pages/image/point.png",
+      "text": "电子地图"
+    },{
+      "pagePath": "pages/oneMap/oneMap",
+      "iconPath": "pages/image/layer.png",
+      "text": "一周一图"
+    },{
+      "pagePath": "pages/panorama/panorama",
+      "iconPath": "pages/image/safari.jpg",
+      "text": "全景德清"
+    }]
+},
+  "networkTimeout": {
+    "request": 20000,
+    "connectSocket": 20000,
+    "uploadFile": 20000,
+    "downloadFile": 20000
+  }
+}
